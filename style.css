@@ -72,7 +72,7 @@ a.active {
 .left {
   width: 60%;
 }
-.container p1 {
+.container p {
   align-items: center;
   z-index: 3;
   width: 80pc;
@@ -83,6 +83,31 @@ a.active {
   font-size: 50px;
   color: rgb(80, 80, 80);
 }
+
+.resume {
+  text-decoration: none;
+  border: solid 2px #278dfa;
+  padding: .8rem 2rem;
+  border-radius: 1rem;
+  color: #278dfa;
+  z-index: 3;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  left: 150px;
+  font-family: sans-serif;
+  font-size: 1rem;
+ top: 550px;
+
+}
+
+.resume:hover {
+  color: white;
+  background-color: #278dfa;
+  cursor: pointer;
+  
+}
+
 .right {
   position: absolute;
   height: 75%;
@@ -294,7 +319,7 @@ height: 510px;
   width: 60%;
 } */
 
-  .container p1 {
+  .container p {
     align-items: center;
     z-index: 3;
     width: 80pc;
@@ -318,3 +343,5 @@ height: 510px;
   }
 
 }
+
+
