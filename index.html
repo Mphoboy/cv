@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
     <title>Mpho Selemela</title>
   </head>
   <nav>
@@ -26,9 +27,9 @@
     <section id="Home"> 
     <div class="container">
       <p1
-        >Hello <br />
-        I'm Mpho Selemela <br />
-        A web developer</p1> 
+        >Hello, <br />
+        I'm Mpho Selemela. <br />
+        A web developer.</p1> 
 <div class="innercontainer"> 
       <img src="./Image/IMG_1940.JPG" alt=""/>
     </div>
@@ -162,30 +163,35 @@
 <div class="containers">
   <form action="https://formsubmit.co/mselemela10@gmail.com" method="post">
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="Firstname" placeholder="Your name.."> <br>
-    <label for="lname">Last Name </label>
-    <input type="text" id="lname" name="Lastname" placeholder="Your last name.."> <br>
+    <input type="text" id="name" name="Firstname" placeholder="Your name.." required> <br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="Lastname" placeholder="Your last name.." required > <br>
+<div  class="email">
+    <label for="Email">Email </label>
+    <input type="text" id="email" name="Email" placeholder="Your email address.." required >
+  </div>
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_subject" value="Job Application">
-    <input type="hidden" name="_next" value="http://127.0.0.1:5502/thanks.html">
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/cv/index.html">
     <div class="t">
     <label for="subject">Message</label> 
-    <textarea id="subject" name="Message" placeholder="Write something.." style="height:205px"></textarea>
+    <textarea id="message" name="Message" placeholder="Write something.." style="height:150px" required></textarea>
 </div>
 <div class="ts">
-    <input type="submit" value="Send Message">
-  </form></div>
+    <input  type="submit" onclick="info()" value="Send Message">
+  </form>
 </div>
+<h1 class='result' id="result"> </h1> 
+</div>
+</div>       
+ </div>
+ </section>
 </div>
 
-                
-        
-            
-        
-        </div>
-        </section>
-        </div>
+<dialog class="Thanks" onclick="closeAddTeamModal()" id="addTeamModal" > 
 
+    <div >Thank you for your message</div>
+</dialog>
     
 
   </body>
