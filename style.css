@@ -303,12 +303,10 @@ dialog::backdrop {
   color:rgb(80, 80, 80);
   font-size: 45px;
   background-color: #eff0f0;
+  z-index: 50;
 }
 
 @media only screen and (max-width: 800px) {
-  /* body {
-    background-color: lightblue;
-  } */
 
   .left,
 .right {
@@ -340,6 +338,42 @@ height: 510px;
     top: 110px;
     z-index: 2;
     padding-left: 50px;
+  }
+
+  .the img {
+    height: 350px;
+    width: 350px;
+    margin-left: 20px;
+  
+  }
+
+  .Top {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(80, 80, 80);
+    padding-top: 1rem;
+  }
+  
+  .Top .title {
+    font-size: 15px;
+  }
+  
+  .Top .Me {
+    font-size: 20px;
+    padding-top: 1rem;
+  }
+
+  .column {
+   
+    width: 20px;
+    padding: 15px;
+  
+    padding-left: 3rem;
+  }
+  
+  .column .itext {
+    padding-left: 5.5rem;
   }
 
 }
