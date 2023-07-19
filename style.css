@@ -309,11 +309,11 @@ dialog::backdrop {
   
 
   nav a{
-  
+  visibility: hidden;
   }
-  nav{
+  /* nav{
     width: 390px;
-  }
+  } */
 .left{
   height: 700px;
 }
