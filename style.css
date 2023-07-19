@@ -16,11 +16,7 @@ body {
   background-color: rgb(227, 226, 226);
 }
 
-.logo img {
-  display: flex;
-  width: 90px;
-  height: 90px;
-}
+
 
 nav {
   position: fixed;
@@ -310,25 +306,33 @@ dialog::backdrop {
 
 @media only screen and (max-width: 844px) {
 
+  
+
   nav a{
-    visibility: hidden;
+  
+  }
+  nav{
+    width: 390px;
   }
 .left{
   height: 700px;
 }
-.left,
+.left{
+  height: 220px;
+}
 .right {
-height: 725px;
-  
+
+ height: 725px; 
 }
 
 
   .container p {
     align-items: center;
     z-index: 3;
-    width: 80pc;
-    height: 325px;
+    width: 200px;
+    height: 220px;
     display: flex;
+    flex-direction: column-reverse;
     position: absolute;
     left: 30px;
     font-size: 25px;
@@ -354,18 +358,20 @@ height: 725px;
 
   .the img {
    visibility: hidden;
+   width: 1px;
+   height: 1px;
   }
 
   .the {
-    left: 0px;
-     padding-top: 100px;
+   flex-direction: column-reverse;
     }
     
   
 
   .the .pictext {
-    font-size: 15px;
-    padding-top: 10px;
+    justify-content: center;
+    font-size: 18px;
+    padding: 30px;
   }
 
 
@@ -386,14 +392,14 @@ height: 725px;
     padding-top: 1rem;
   }
 
-  .column {
+    .column {
+  
+      width: 2px;
+      padding: 1px;
+      filter: grayscale(20%);
+      padding-left: 1rem;
+    }
    
-    width: 20px;
-    padding: 15px;
-  
-    padding-left: 3rem;
-  }
-  
   .column .itext {
     padding-left: 5.5rem;
   }
