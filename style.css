@@ -397,6 +397,17 @@ dialog::backdrop {
     padding-left: 5.5rem;
   }
 
+.form{
+  visibility: hidden;
+}
+.contactmetext{
+ 
+  padding-top: 20px;
+  padding-left: 105px;
+  text-align: center;
+
+}
+
 }
 
 
