@@ -48,9 +48,9 @@
 
       <div class="page">
 
-        <div class="the">
+        <div class="aboutme">
           <img src="./assets/Image/IMG_1922.JPG" />
-          <div class="pictext">
+          <div class="abouttext">
             <h1>About Me</h1><br>
             <p>
               I am passionate and dedicated person with the ability to give every effort to my tasks.<br>
@@ -88,44 +88,48 @@
       </div>
     </section>
   </div>
+  
   <section id="Skills">
     <div class="page">
-      <div class="Top">
+      <div class="skillscontainer">
         <div class="title">
-          <div class="Me">
+          <div class="skilltitle">
             <h1>My Skills</h1>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="progressbar">
         <div class="column">
           <img src="https://img.icons8.com/fluency/240/null/javascript.png" />
-          <div class="itext"> javascript </div>
+          <div class="columntext"> javascript </div>
         </div>
         <div class="column">
           <img src="https://img.icons8.com/color/240/null/css3.png" />
-          <div class="itext"> CSS3 </div>
+          <div class="columntext"> CSS3 </div>
         </div>
         <div class="column">
           <img src="https://img.icons8.com/fluency/240/null/html-5.png" />
-          <div class="itext"> HTML5 </div>
+          <div class="columntext"> HTML5 </div>
         </div>
       </div>
     </div>
+    
+
+    
  
   </section>
 
   <div class="grey">
     <section id="Contacts">
       <div class="page">
-        <div class="yes">
-          <div class="was">
-            <div class="pop">
+        <div class="contactme">
+          <div class="contactmecontainer">
+            <div class="contacttitle">
               <h1> Contact me </h1>
             </div>
           </div>
         </div>
-        <div class="put">
+        <div class="contactmetext">
           <h2>Location</h2>
 
           <p>Johanesburg South</p>
@@ -140,7 +144,7 @@
           <h2> Cell</h2>
           <p> 076 970 2263</p>
         </div>
-        <div class="pos">
+        <div class="form">
           <div class="containers">
             <form action="https://formsubmit.co/mselemela10@gmail.com" method="post">
               <label for="fname">First Name</label>
@@ -153,13 +157,13 @@
               </div>
               <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_subject" value="Job Application">
-              <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
-              <div class="t">
+              <input type="hidden" name="_next" value="http://mphoboy.github.io/cv/">
+              <div class="message">
                 <label for="subject">Message</label>
                 <textarea id="message" name="Message" placeholder="Write something.." style="height:150px"
                   required></textarea>
               </div>
-              <div class="ts">
+              <div class="submit">
                 <input type="submit" onclick="info()" value="Send Message">
             </form>
           </div>
@@ -170,7 +174,7 @@
   </section>
   </div>
 
-  <dialog class="Thanks" onclick="closeAddTeamModal()" id="addTeamModal" >
+  <dialog class="Thanks" onclick="closeAddModal()" id="addModal" >
 
     <div>Thank you for your message.</div>
   </dialog>

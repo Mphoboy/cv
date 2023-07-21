@@ -28,17 +28,22 @@ function info() {
     result.innerHTML = "Message is required";
     return;
   } else {
-    openAddTeamModal();
+    openAddModal();
     result.innerHTML = "";
   }
 }
 
-const addTeamModal = document.getElementById("addTeamModal");
+const addModal = document.getElementById("addModal");
 
-function openAddTeamModal() {
-  addTeamModal.showModal();
+function openAddModal() {
+  addModal.showModal();
 }
 
-function closeAddTeamModal() {
-  addTeamModal.close();
+function closeAddModal() {
+  addModal.close();
 }
+
+
+
+
+
