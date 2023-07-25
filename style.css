@@ -169,17 +169,29 @@ a.active {
   padding-top: 5rem;
 }
 
-.column {
-  float: left;
-  width: 20%;
-  padding: 100px;
-  filter: grayscale(20%);
-  padding-left: 15rem;
+.html{
+  fill:#E34F26;
+  width: 250px;
 }
 
-.column .columntext {
-  padding-left: 5.5rem;
+.java{
+  fill: #F7DF1E;
+  width: 250px;
 }
+
+.css{
+  fill: #1572B6;
+  width: 250px;
+}
+
+.column {
+display: flex;
+flex-direction: row;
+}
+
+/* .column .columntext {
+  padding-left: 5.5rem;
+} */
 
 .contactme {
   display: flex;
@@ -401,26 +413,41 @@ dialog::backdrop {
   }
 
     .column {
-      width: 2px;
-      padding: 1px;
-      filter: grayscale(20%);
-      padding-left: 1rem;
+      flex-direction: column;
     }
    
   .column .columntext {
     padding-left: 5.5rem;
   }
 
+  .html{
+    width: 150px;
+  }
+  
+  .java{
+    width: 150px;
+  }
+  
+  .css{
+    width: 150px;
+  }
+  
+
 .contactmetext{
+  width: 350px;
+  padding: 0;
  font-size: 13px;
-  padding-top: 20px;
-  padding-left: 105px;
-  text-align: center;
-  justify-content: center;
+display:flex;
+flex-direction: row;
 
 }
-
+.row{
+  display: flex;
+  flex-direction: column-reverse;
+  height: 600px;
+}
 .form{
+  padding-bottom: 200px;
   right: 50px;
   width:300px ;}
 
