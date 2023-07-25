@@ -32,6 +32,8 @@
           I'm Mpho Selemela <br />
           A web developer
          </p>
+
+       
           <a class="resume" href="./assets/cv.pdf" target="_blank">My Resume</a>
         <div class="innercontainer">
           <img src="./assets/Image/IMG_1940.JPG" alt="" />
@@ -113,7 +115,6 @@
         </div>
       </div>
     </div>
-    
 
     
  
@@ -147,18 +148,24 @@
         <div class="form">
           <div class="containers">
             <form action="https://formsubmit.co/mselemela10@gmail.com" method="post">
-              <label for="fname">First Name</label>
-              <input type="text" id="name" name="Firstname" placeholder="Your name.." required> <br>
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="Lastname" placeholder="Your last name.." required> <br>
-              <div class="email">
+              <div class="formcontrol">
+                <label for="fname">First Name</label>
+              <input type="text" id="name" name="Firstname" placeholder="Your name.." required>
+              </div> 
+
+              <div class="formcontrol">
+                <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="Lastname" placeholder="Your last name.." required>
+              </div>
+
+              <div class="email formcontrol">
                 <label for="Email">Email </label>
                 <input type="text" id="email" name="Email" placeholder="Your email address.." required>
               </div>
               <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_subject" value="Job Application">
               <input type="hidden" name="_next" value="http://mphoboy.github.io/cv/">
-              <div class="message">
+              <div class="message formcontrol">
                 <label for="subject">Message</label>
                 <textarea id="message" name="Message" placeholder="Write something.." style="height:150px"
                   required></textarea>
