@@ -189,10 +189,6 @@ display: flex;
 flex-direction: row;
 }
 
-/* .column .columntext {
-  padding-left: 5.5rem;
-} */
-
 .contactme {
   display: flex;
   justify-content: center;
@@ -282,6 +278,10 @@ input[type="submit"]:hover {
   text-align: center;
   gap: 13px;
   padding-left: 10px;
+}
+
+#message{
+  height: 150px;
 }
 
 .submit {
@@ -409,16 +409,18 @@ dialog::backdrop {
   
   .skillscontainer .skilltitle {
     font-size: 15px;
-    padding-top: 30px;
+    padding-top: 0;padding-bottom: 20px;
   }
 
     .column {
       flex-direction: column;
       align-items: center;
+      gap:10px;
     }
    
   .column .columntext {
-    padding-left: 5.5rem;
+    padding-left: 0;
+    
   }
 
   .html{
@@ -454,7 +456,7 @@ flex-direction: row;
 
 form{
   width: 100%;
-  height: 350px;
+  height: 370px;
 }
 
 .containers{
@@ -473,6 +475,34 @@ input[type="text"],
 select,
 textarea {
   width: 250px;
+}
+
+.email {
+  display: flex;
+  text-align: center;
+  gap: 0; 
+  padding-left: 0;}
+
+  .email label{
+    padding-top: 0;
+  }
+
+.message label{
+    padding-top: 0;
+  }
+
+.message{
+  padding-left: 0;
+  gap: 0;
+}
+
+.formcontrol{
+  gap: 0;
+  margin-top: 0;
+}
+
+#message{
+  height: 45px;
 }
 
 
