@@ -518,5 +518,11 @@ textarea {
   height: 45px;
 }
 
+#addModal {
+  width: 20rem;
+  height: 12rem;
+  padding: 3rem;
+  font-size: 35px;
+}
 
 }
