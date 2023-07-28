@@ -157,7 +157,7 @@ a.active {
   justify-content: center;
   text-align: center;
   color: rgb(80, 80, 80);
-  padding-top: 7rem;
+  padding-top: 5rem;
 }
 
 .skillscontainer .title {
@@ -184,11 +184,25 @@ a.active {
   width: 250px;
 }
 
-.column {
+.pictures{
 display: flex;
 flex-direction: row;
-gap:50px;
+text-align: center;
+gap:200px;
 margin: 150px;
+}
+
+.pictures p{
+  padding-top: 20px;
+}
+
+
+.columntext{
+  display: flex;
+  flex-direction: row;
+  gap :400px;
+  margin-left: 225px;
+  margin-top: 25px;
 }
 
 .contactme {
@@ -411,21 +425,17 @@ dialog::backdrop {
   
   .skillscontainer .skilltitle {
     font-size: 15px;
-    padding-top: 0;padding-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 20px;
   }
 
-    .column {
+    .pictures {
       flex-direction: column;
       align-items: center;
-      gap:10px;
+      gap:20px;
     margin: 0;
     }
    
-  .column .columntext {
-    padding-left: 0;
-    
-  }
-
   .html{
     width: 150px;
   }
@@ -441,10 +451,10 @@ dialog::backdrop {
 
 .contactmetext{
   width: 350px;
-  padding: 0;
+  padding: 8px 43px;
  font-size: 13px;
 display:flex;
-flex-direction: row;
+flex-direction: column;
 
 }
 .row{
