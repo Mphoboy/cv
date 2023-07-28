@@ -22,7 +22,7 @@ nav {
   position: fixed;
   top: 0;
   z-index: 99;
-  background-color: #eff0f08a;
+  background-color: #eff0f0a8;
   width: 100vw;
   scroll-behavior: smooth;
   transition: 0.5;
@@ -333,6 +333,9 @@ dialog::backdrop {
 }
 
 @media only screen and (max-width: 900px) {
+  nav {
+    background-color: #eff0f0eb;
+  }
 
   .navbar div {
     display: flex;
