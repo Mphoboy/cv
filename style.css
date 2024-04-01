@@ -6,15 +6,9 @@
   scroll-behavior: smooth;
   transition: 0.2s;
   outline: #7bb6f6;
-}
-
-body {
   color: rgb(80, 80, 80);
 }
 
-.grey {
-  background-color: rgb(227, 226, 226);
-}
 
 
 
@@ -26,9 +20,6 @@ nav {
   width: 100vw;
   scroll-behavior: smooth;
   transition: 0.5;
-}
-
-.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,6 +47,21 @@ a.active {
   font-weight: bold;
   text-underline-offset: 10px;
 }
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+#About {
+  background-color: rgb(227, 226, 226);
+}
+
+#Contacts {
+  background-color: rgb(227, 226, 226);
+}
+
+
 
 .left,
 .right {
@@ -125,10 +131,7 @@ a.active {
   padding-left: 600px;
 }
 
-.page {
-  width: 100vw;
-  height: 100vh;
-}
+
 
 .aboutme {
   display: flex;
