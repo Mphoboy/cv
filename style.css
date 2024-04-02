@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
-  scroll-behavior: smooth;
   transition: 0.2s;
   outline: #7bb6f6;
   color: rgb(80, 80, 80);
@@ -12,20 +11,16 @@
 
 
 
-nav {
-  position: fixed;
-  top: 0;
-  z-index: 99;
+nav{  
+  display: flex;
+  align-items:center; 
   background-color: #eff0f0c2;
   width: 100vw;
-  scroll-behavior: smooth;
-  transition: 0.5;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 70px;
-  padding-left: 40px;
-  padding-right: 60px;
+  position: fixed;
+  scroll-behavior: smooth;
+  z-index: 99;  
+  padding-left: 55rem;
 }
 
 nav a {
