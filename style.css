@@ -129,21 +129,24 @@ section {
   text-align: center;
 }
 
-.skillscontainer {
+.skilltitle {
   display: flex;
   justify-content: center;
   text-align: center;
-  color: rgb(80, 80, 80);
-  padding-top: 5rem;
-}
-
-.skillscontainer .title {
-  font-size: 15px;
-}
-
-.skillscontainer .skilltitle {
   font-size: 20px;
   padding-top: 5rem;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 150px;
+  margin: 130px;
+}
+
+.pictures p {
+  padding-top: 20px;
 }
 
 .html {
@@ -161,17 +164,6 @@ section {
   width: 250px;
 }
 
-.pictures {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  gap: 150px;
-  margin: 130px;
-}
-
-.pictures p {
-  padding-top: 20px;
-}
 
 
 .columntext {
