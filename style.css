@@ -134,9 +134,20 @@ section {
   justify-content: center;
   text-align: center;
   font-size: 20px;
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
+
+.leftside{
+  float: left;
+  width: 50%;
+}
+
+.rightside{
+  float: right;
+  background: rgb(104, 99, 99);
+  width: 50%;
+}
 .pictures {
   display: flex;
   flex-direction: row;
