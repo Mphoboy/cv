@@ -444,6 +444,7 @@ dialog::backdrop {
 
 	.containers {
 		width: 310px;
+    margin-left: -10px;
 	}
 
 	.contacttitle {
