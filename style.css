@@ -305,7 +305,7 @@ dialog::backdrop {
 /* phone */
 @media only screen and (max-width: 768px) {
 	nav {
-    display: none;
+		display: none;
 	}
 
 	.right {
@@ -349,7 +349,7 @@ dialog::backdrop {
 
 	.aboutme {
 		flex-direction: column-reverse;
-    padding-top: 50px;
+		padding-top: 50px;
 	}
 
 	.aboutme .abouttext {
@@ -367,9 +367,9 @@ dialog::backdrop {
 		gap: 0.5rem;
 	}
 
-.skilltitle{
-  padding-top: 50px;
-}
+	.skilltitle {
+		padding-top: 50px;
+	}
 
 	.skillscontainer .title {
 		font-size: 20px;
@@ -381,38 +381,37 @@ dialog::backdrop {
 		padding-bottom: 20px;
 	}
 
-  .splitpage {
-    margin: 80px 0px 0px 0px;
-    display: flex;
-    flex-direction: column-reverse;
-}
+	.splitpage {
+		margin: 80px 0px 0px 0px;
+		display: flex;
+		flex-direction: column-reverse;
+	}
 
-svg {
-	width: 25px;
-	height: 25px;
-}
+	svg {
+		width: 25px;
+		height: 25px;
+	}
 
-.leftside{
-  margin-left: 50px;
-  width: 100%;
-  margin-top: 20px;
-}
+	.leftside {
+		margin-left: 50px;
+		width: 300px;
+		margin-top: 20px;
+	}
 
-.rightside{
-float: left;
-width: 100%;
-margin-left: 50px;
+	.rightside {
+		float: left;
+		width: 300px;
+		margin-left: 50px;
+	}
 
-}
+	.rightside img {
+		height: 25px;
+		width: 25px;
+	}
 
-.rightside img {
-  height: 25px;
-  width: 25px;
-}
-
-  .contactme {
-    padding-top: 20px;
-}
+	.contactme {
+		padding-top: 20px;
+	}
 
 	.contactmetext {
 		width: 350px;
