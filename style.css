@@ -1,528 +1,525 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  transition: 0.2s;
-  outline: #7bb6f6;
-  color: rgb(80, 80, 80);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Georgia, "Times New Roman", Times,
+		serif;
+	transition: 0.2s;
+	outline: #7bb6f6;
+	color: rgb(80, 80, 80);
 }
 
 nav {
-  display: flex;
-  align-items: center;
-  background-color: #eff0f0c2;
-  width: 100vw;
-  height: 70px;
-  position: fixed;
-  scroll-behavior: smooth;
-  z-index: 99;
-  padding-left: 55rem;
+	display: flex;
+	align-items: center;
+	background-color: #eff0f0c2;
+	width: 100vw;
+	height: 70px;
+	position: fixed;
+	scroll-behavior: smooth;
+	z-index: 99;
+	padding-left: 55rem;
 }
 
 nav a {
-  color: rgb(85, 85, 85);
-  text-decoration: none;
-  margin-right: 40px;
-  transition: 0.5s;
+	color: rgb(85, 85, 85);
+	text-decoration: none;
+	margin-right: 40px;
+	transition: 0.5s;
 }
 
 nav a:hover {
-  color: rgb(80, 80, 80);
-  letter-spacing: 2px;
-  font-weight: bold;
+	color: rgb(80, 80, 80);
+	letter-spacing: 2px;
+	font-weight: bold;
 }
 
 a.active {
-  color: rgb(83, 83, 83);
-  letter-spacing: 2px;
-  font-weight: bold;
-  text-underline-offset: 10px;
+	color: rgb(83, 83, 83);
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-underline-offset: 10px;
 }
 
 section {
-  width: 100vw;
-  height: 100vh;
+	width: 100vw;
+	height: 100vh;
 }
 
 #About {
-  background-color: rgb(227, 226, 226);
+	background-color: rgb(227, 226, 226);
 }
 
 #Contacts {
-  background-color: rgb(227, 226, 226);
+	background-color: rgb(227, 226, 226);
 }
 
 .left,
 .right {
-  position: fixed;
-  overflow-x: hidden;
+	position: fixed;
+	overflow-x: hidden;
 }
 
 .left {
-  position: absolute;
-  width: 60%;
+	position: absolute;
+	width: 60%;
 }
 
 .container p {
-  align-items: center;
-  margin-top: 350px;
-  display: flex;
-  position: absolute;
-  left: 150px;
-  font-size: 50px;
+	align-items: center;
+	margin-top: 350px;
+	display: flex;
+	position: absolute;
+	left: 150px;
+	font-size: 50px;
 }
 
 .resume {
-  text-decoration: none;
-  border: solid 2px #278dfa;
-  padding: .8rem 2rem;
-  border-radius: 1rem;
-  color: #278dfa;
-  z-index: 3;
-  position: absolute;
-  left: 150px;
-  top: 550px;
+	text-decoration: none;
+	border: solid 2px #278dfa;
+	padding: 0.8rem 2rem;
+	border-radius: 1rem;
+	color: #278dfa;
+	z-index: 3;
+	position: absolute;
+	left: 150px;
+	top: 550px;
 }
 
 .resume:hover {
-  color: white;
-  background-color: #278dfa;
-  cursor: pointer;
-
+	color: white;
+	background-color: #278dfa;
+	cursor: pointer;
 }
 
 .right {
-  position: absolute;
-  height: 75%;
-  width: 40%;
-  right: 0;
-  background-color: #7bb6f6;
+	position: absolute;
+	height: 75%;
+	width: 40%;
+	right: 0;
+	background-color: #7bb6f6;
 }
 
 .innercontainer img {
-  width: 75rem;
-  height: 600px;
-  position: absolute;
-  top: 120px;
-  padding-left: 600px;
+	width: 75rem;
+	height: 600px;
+	position: absolute;
+	top: 120px;
+	padding-left: 600px;
 }
 
-
-
 .aboutme {
-  display: flex;
-  gap: 50px;
-  padding-top: 100px;
+	display: flex;
+	gap: 50px;
+	padding-top: 100px;
 }
 
 .aboutme img {
-  height: 600px;
-  width: 550px;
-  margin-left: 100px;
-
+	height: 600px;
+	width: 550px;
+	margin-left: 100px;
 }
 
 .abouttext {
-  font-size: 20px;
-  padding-right: 100px;
-  text-align: center;
+	font-size: 20px;
+	padding-right: 100px;
+	text-align: center;
 }
 
 .skilltitle {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-size: 20px;
-  padding-top: 6rem;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 8rem;
 }
 
-
-.leftside{
-  float: left;
-  width: 50%;
+.splitpage {
+	margin: 50px 50px 0px 50px;
 }
 
-.rightside{
-  float: right;
-  background: rgb(104, 99, 99);
-  width: 50%;
-}
-.pictures {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  gap: 150px;
-  margin: 130px;
+.leftside {
+	float: left;
+	margin-left: 10rem;
 }
 
-.pictures p {
-  padding-top: 20px;
+.rightside {
+	float: right;
+	width: 40%;
+}
+svg {
+	width: 50px;
+	height: 50px;
 }
 
 .html {
-  fill: #E34F26;
-  width: 250px;
+	fill: #e34f26;
 }
 
 .java {
-  fill: #F7DF1E;
-  width: 250px;
+	fill: #f7df1e;
 }
 
 .css {
-  fill: #1572B6;
-  width: 250px;
+	fill: #1572b6;
+}
+
+.pictures {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	gap: 150px;
+	margin: 130px;
+}
+
+.pictures p {
+	padding-top: 20px;
 }
 
 
 
 .columntext {
-  display: flex;
-  flex-direction: row;
-  gap: 400px;
-  margin-left: 225px;
-  margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+	gap: 400px;
+	margin-left: 225px;
+	margin-top: 25px;
 }
 
 .contactme {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: rgb(80, 80, 80);
-  padding-top: 7rem;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: rgb(80, 80, 80);
+	padding-top: 7rem;
 }
 
 .contactme .contactmecontainer {
-  font-size: 15px;
+	font-size: 15px;
 }
 
 .contacttitle {
-  display: flex;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-  font-size: 20px;
+	display: flex;
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+	font-size: 20px;
 }
 
 .contactmetext {
-  position: absolute;
-  padding-top: 6rem;
-  padding-left: 10rem;
+	position: absolute;
+	padding-top: 6rem;
+	padding-left: 10rem;
 }
 
 .form {
-  position: absolute;
-  right: 10rem;
+	position: absolute;
+	right: 10rem;
 }
 
 input[type="text"],
 select,
 textarea {
-  width: 450px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+	width: 450px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
 }
 
 input[type="submit"] {
-  background-color: #6baff8;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+	background-color: #6baff8;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #278dfa;
+	background-color: #278dfa;
 }
 
 .containers {
-  width: 600px;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  gap: 20px;
+	width: 600px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	gap: 20px;
 }
 
 .email {
-  display: flex;
-  text-align: center;
-  gap: 20px;
-  padding-left: 20px;
-
+	display: flex;
+	text-align: center;
+	gap: 20px;
+	padding-left: 20px;
 }
 
 .email label {
-  padding-top: 10px;
+	padding-top: 10px;
 }
 
 .email input {
-  width: 450px;
-  padding: 13px;
-  gap: 20px;
-  border-radius: 5px;
-  box-sizing: border-box;
+	width: 450px;
+	padding: 13px;
+	gap: 20px;
+	border-radius: 5px;
+	box-sizing: border-box;
 }
 
 .message label {
-  padding-top: 15px;
+	padding-top: 15px;
 }
 
 .message {
-  display: flex;
-  text-align: center;
-  gap: 13px;
-  padding-left: 10px;
+	display: flex;
+	text-align: center;
+	gap: 13px;
+	padding-left: 10px;
 }
 
 #message {
-  height: 150px;
+	height: 150px;
 }
 
 .submit {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .result {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 dialog::backdrop {
-  background-color: rgba(0, 0, 0, 0.585);
-  position: relative;
+	background-color: rgba(0, 0, 0, 0.585);
+	position: relative;
 }
 
 #addModal {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: modal 0.5s;
-  width: 40rem;
-  height: 14.5rem;
-  padding: 4rem;
-  border-radius: 0.5rem;
-  color: rgb(80, 80, 80);
-  font-size: 45px;
-  background-color: #eff0f0;
-  z-index: 50;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: modal 0.5s;
+	width: 40rem;
+	height: 14.5rem;
+	padding: 4rem;
+	border-radius: 0.5rem;
+	color: rgb(80, 80, 80);
+	font-size: 45px;
+	background-color: #eff0f0;
+	z-index: 50;
 }
 
 /* phone */
 @media only screen and (max-width: 900px) {
-  nav {
-    background-color: #eff0f0f4;
-  }
+	nav {
+		background-color: #eff0f0f4;
+	}
 
-  .navbar div {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    gap: 2rem;
-    padding-left: 0;
-    padding-right: 0;
-  }
+	.navbar div {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		height: 70px;
+		gap: 2rem;
+		padding-left: 0;
+		padding-right: 0;
+	}
 
-  .navbar {
-    padding: 0;
-  }
+	.navbar {
+		padding: 0;
+	}
 
-  nav a {
-    color: rgb(85, 85, 85);
-    text-decoration: none;
-    text-align: center;
-    transition: 0.5s;
-    margin-right: 1px;
-  }
+	nav a {
+		color: rgb(85, 85, 85);
+		text-decoration: none;
+		text-align: center;
+		transition: 0.5s;
+		margin-right: 1px;
+	}
 
-  .navbar .logo {
-    display: none;
-  }
+	.navbar .logo {
+		display: none;
+	}
 
-  .right {
-    height: 500px;
-  }
+	.right {
+		height: 500px;
+	}
 
-  .container p {
-    align-items: center;
-    z-index: 3;
-    width: 200px;
-    height: 220px;
-    display: flex;
-    flex-direction: column-reverse;
-    position: absolute;
-    left: 50px;
-    font-size: 25px;
-    color: rgb(80, 80, 80);
-  }
+	.container p {
+		align-items: center;
+		z-index: 3;
+		width: 200px;
+		height: 220px;
+		display: flex;
+		flex-direction: column-reverse;
+		position: absolute;
+		left: 50px;
+		font-size: 25px;
+		color: rgb(80, 80, 80);
+	}
 
-  .innercontainer img {
-    display: flex;
-    position: absolute;
-    object-fit: cover;
-    width: 350px;
-    height: 350px;
-    top: 250px;
-    z-index: 2;
-    padding-left: 50px;
-  }
+	.innercontainer img {
+		display: flex;
+		position: absolute;
+		object-fit: cover;
+		width: 350px;
+		height: 350px;
+		top: 250px;
+		z-index: 2;
+		padding-left: 50px;
+	}
 
-  .resume {
-    left: 50px;
-    top: 640px;
-  }
+	.resume {
+		left: 50px;
+		top: 640px;
+	}
 
-  .aboutme img {
-    visibility: hidden;
-    width: 1px;
-    height: 1px;
-  }
+	.aboutme img {
+		visibility: hidden;
+		width: 1px;
+		height: 1px;
+	}
 
-  .aboutme {
-    flex-direction: column-reverse;
-  }
+	.aboutme {
+		flex-direction: column-reverse;
+	}
 
-  .aboutme .abouttext {
-    justify-content: center;
-    font-size: 18px;
-    padding: 30px;
-  }
+	.aboutme .abouttext {
+		justify-content: center;
+		font-size: 18px;
+		padding: 30px;
+	}
 
-  .formcontrol {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-    margin-top: 1rem;
-    gap: .5rem;
-  }
+	.formcontrol {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: space-between;
+		margin-top: 1rem;
+		gap: 0.5rem;
+	}
 
-  .skillscontainer .title {
-    font-size: 20px;
-  }
+	.skillscontainer .title {
+		font-size: 20px;
+	}
 
-  .skillscontainer .skilltitle {
-    font-size: 15px;
-    padding-top: 0;
-    padding-bottom: 20px;
-  }
+	.skillscontainer .skilltitle {
+		font-size: 15px;
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
 
-  .pictures {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    margin: 0;
-  }
+	.pictures {
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		margin: 0;
+	}
 
-  .html {
-    width: 150px;
-  }
+	.html {
+		width: 150px;
+	}
 
-  .java {
-    width: 150px;
-  }
+	.java {
+		width: 150px;
+	}
 
-  .css {
-    width: 150px;
-  }
+	.css {
+		width: 150px;
+	}
 
+	.contactmetext {
+		width: 350px;
+		padding: 8px 43px;
+		font-size: 13px;
+		display: flex;
+		flex-direction: column;
+	}
 
-  .contactmetext {
-    width: 350px;
-    padding: 8px 43px;
-    font-size: 13px;
-    display: flex;
-    flex-direction: column;
+	.contactmetext p {
+		text-decoration: none;
+	}
 
-  }
+	.row {
+		display: flex;
+		flex-direction: column-reverse;
+		height: 600px;
+	}
 
-  .contactmetext p {
-    text-decoration: none;
-  }
+	.form {
+		padding-bottom: 200px;
+		right: 50px;
+		width: 300px;
+	}
 
-  .row {
-    display: flex;
-    flex-direction: column-reverse;
-    height: 600px;
-  }
+	form {
+		width: 100%;
+		height: 370px;
+	}
 
-  .form {
-    padding-bottom: 200px;
-    right: 50px;
-    width: 300px;
-  }
+	.containers {
+		width: 310px;
+	}
 
-  form {
-    width: 100%;
-    height: 370px;
-  }
+	.contacttitle {
+		padding-bottom: 2rem;
+	}
 
-  .containers {
-    width: 310px;
-  }
+	.contactme {
+		padding-top: 4rem;
+	}
 
-  .contacttitle {
-    padding-bottom: 2rem;
-  }
+	input[type="text"],
+	select,
+	textarea {
+		width: 250px;
+	}
 
-  .contactme {
-    padding-top: 4rem;
-  }
+	.email {
+		display: flex;
+		text-align: center;
+		gap: 0;
+		padding-left: 0;
+	}
 
-  input[type="text"],
-  select,
-  textarea {
-    width: 250px;
-  }
+	.email label {
+		padding-top: 0;
+	}
 
-  .email {
-    display: flex;
-    text-align: center;
-    gap: 0;
-    padding-left: 0;
-  }
+	.message label {
+		padding-top: 0;
+	}
 
-  .email label {
-    padding-top: 0;
-  }
+	.message {
+		padding-left: 0;
+		gap: 0;
+	}
 
-  .message label {
-    padding-top: 0;
-  }
+	.formcontrol {
+		gap: 0;
+		margin-top: 0;
+	}
 
-  .message {
-    padding-left: 0;
-    gap: 0;
-  }
+	#message {
+		height: 45px;
+	}
 
-  .formcontrol {
-    gap: 0;
-    margin-top: 0;
-  }
+	#addModal {
+		width: 20rem;
+		height: 12rem;
+		padding: 3rem;
+		font-size: 35px;
+	}
 
-  #message {
-    height: 45px;
-  }
-
-  #addModal {
-    width: 20rem;
-    height: 12rem;
-    padding: 3rem;
-    font-size: 35px;
-  }
-
-  .result {
-    font-size: 20px;
-  }
-
+	.result {
+		font-size: 20px;
+	}
 }
